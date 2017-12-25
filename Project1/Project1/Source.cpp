@@ -8,25 +8,49 @@ int main()
 
 
 
-	/*int a;
-	cout << "1.Red\n" << "2.Yellow\n" "3.Green\n" << endl;
-	cin >> a;
-	if (a == 1) {
-	cout << "Stop" << endl;
-	}
+	//int a;
+	//cout << "1.Red\n" << "2.Yellow\n" "3.Green\n" << endl;
+	//cin >> a;
+	//
+	//
+	////switch
+	//switch (a)
+	//{
+	//case 1:
+	//	cout << "Stop" << endl;
+	//	break;
 
-	else if (a == 2) {
-	cout << "Wait" << endl;
-	}
+	//case 2:
+	//	cout << "Wait" << endl;
+	//	break;
 
-	else if (a == 3) {
-	cout << "Go" << endl;
-	}
+	//case 3:
+	//	cout << "Go" << endl;
+	//	break;
+	//default:
+	//	cout << "Errr" << endl;
+	//	break;
+	//}
 
-	else
-	{
-	cout << "Error" << endl;
-	}*/
+	////if
+	//if (a == 1) {
+	//cout << "Stop" << endl;
+	//}
+
+	//else if (a == 2) {
+	//cout << "Wait" << endl;
+	//}
+
+	//else if (a == 3) {
+	//cout << "Go" << endl;
+	//}
+
+	//else
+	//{
+	//cout << "Error" << endl;
+	//}
+
+
 
 
 
