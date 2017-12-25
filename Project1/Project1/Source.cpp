@@ -218,29 +218,70 @@ int main()
 	}*/
 	
 	
-	/*char symbol;
+	/*char symbol, symvol;
 	cout << "N –пiвнiч, S - пiвдень, E – схiд, W – захiд " << endl;
+	cout << "Введiть напрям: " << endl;
 	cin >> symbol;
+	
+	
 
 	switch (symbol)
 	{
-	case 'N':case 'W':case 'S':
+	case 'N':
+		cout << "Напрям на пiвнiч" << endl;
 		break;
 	
-	
-	case 'E': cout << "Направо " << endl;
+	case 'S':
+		cout << "Напрям на пiвдень" << endl;
 		break;
-	
+
+	case 'E': 
+		cout << "Напрям на схiд" << endl;
+		break;
+
+	case 'W':
+		cout << "Напрям на захiд" << endl;
+		break;
 		
+
+	default:
+		cout << "Errr " << endl;
+		break;
+	}
+
+
+	cout << "Введiть команду: 1-вперед,2-направо,3-назад,4-налiво" << endl;
+	cin >> symvol;
+
+	switch (symvol)
+	{
+	case '1':
+		cout << "Новий курс прямо " << endl;
+		break;
+
+	case '2':
+		cout << "Новий курс  направо" << endl;
+		break;
+
+	case '3':
+		cout << "Новий курс назад " << endl;
+		break;
+
+	case '4':
+		cout << "Новий курс налiво " << endl;
+		break;
+
+
 	default:
 		cout << "Errr " << endl;
 		break;
 	}*/
+	
 
 
 
 
-	enum Operator { Kyivstar = 1, МТС, Lifecell, Intertelecom, TriMob };
+	/*enum Operator { Kyivstar = 1, МТС, Lifecell, Intertelecom, TriMob };
 	int c_operat;
 	float t;
 	cout << "Введiть кiльскiсть хвилин " << endl;
@@ -267,6 +308,39 @@ int main()
 		cout << "Wrong operation\n";
 		break;
 	}
+*/
+
+	/*enum Operator { Orange = 1, Red, Brown, Green, Blue, Pink, Black, Gray, White, Beige, Light_gray, Creamy};
+	int color;
+
+	cout << "Назва кольору" << "    Номер кольору" << endl;
+	cout << " Orange \t   1\n Red \t\t   2\n Brown \t\t   3\n Green \t\t   4\n Blue \t\t   5\n Pink \t\t   6\n Black \t\t   7\n Gray \t\t   8\n White \t\t   9\n Beige \t\t   10\n Light_gray \t   11\n Creamy \t   12\n  " << endl;
+
+	cout << "Введiть номер кольору " << endl;
+	cin >> color;
+
+	switch (color)
+	{
+	case Orange: case Red: case Brown: case Green:
+		cout << "Теплий колiр" << endl;
+		break;
+	
+	case Blue: case Pink: case Black: case Gray:
+		cout << "Холодний колiр" << endl;
+		break;
+
+	case White: case Beige: case Light_gray: case Creamy:
+		cout << "Нейтральний колiр" << endl;
+		break;
+	
+
+	default:
+		cout << "Невірний номер" << endl;
+		break;
+	}*/
+
+
+
 	system("pause");
 	return 0;
 }
